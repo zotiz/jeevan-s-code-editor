@@ -31,7 +31,7 @@ const ContentForm = () => {
           htmlFor="editor"
           className="block text-gray-700 text-sm font-bold mb-2"
         >
-          Jeevan `&apos;` s Code Editor:
+          Jeevan&apos;s Code Editor:
         </label>
         <ReactQuill
           id="editor"
