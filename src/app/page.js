@@ -22,13 +22,16 @@ const ContentForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="w-11/12 m-auto p-10 h-screen">
+    <form
+      onSubmit={handleSubmit}
+      className="w-11/12 m-auto px-10 py-5 h-screen"
+    >
       <div className="mb-4">
         <label
           htmlFor="editor"
           className="block text-gray-700 text-sm font-bold mb-2"
         >
-          Editor:
+          Jeevan `&apos;` s Code Editor:
         </label>
         <ReactQuill
           id="editor"
